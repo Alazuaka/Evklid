@@ -481,6 +481,7 @@ fill: var(--color-orange);
 }
 
 .hero__img {
+  width: 100%;
   aspect-ratio: 14 / 5;
 }
 
