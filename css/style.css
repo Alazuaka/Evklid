@@ -480,6 +480,10 @@ fill: var(--color-orange);
   line-height: 29px;
 }
 
+.hero__img {
+  aspect-ratio: 14 / 5;
+}
+
 .swiper-pagination {
   z-index: 1000;
 }
