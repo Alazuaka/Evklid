@@ -1110,7 +1110,7 @@ fill: var(--color-orange);
 
 /* image */
 .image-1 {
-  background-image: url("../img/abaut-us-1.jpg");
+  background-image: url("../img/abaut-us-1.webp");
 }
 
 .image-2 {
@@ -1122,17 +1122,17 @@ fill: var(--color-orange);
 }
 
 .steps-1::after {
-  background-image: url(../img/staps-1.jpg);
+  background-image: url(../img/staps-1.webp);
 }
 
 .steps-2::after {
-  background-image: url(../img/staps-2.jpg);
+  background-image: url(../img/staps-2.webp);
 }
 
 .steps-3::after {
-  background-image: url(../img/staps-3.jpg);
+  background-image: url(../img/staps-3.webp);
 }
 
 .steps-4::after {
-  background-image: url(../img/staps-4.jpg);
+  background-image: url(../img/staps-4.webp);
 }
