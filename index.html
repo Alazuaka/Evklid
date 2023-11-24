@@ -24,54 +24,51 @@
   <body>
     <header class="header">
       <div class="container header__container">
-        <a class="header__logo"><img class="logo" src="img/logo.svg" alt="Логотип"></a>
-        <nav class="header__nav nav">
-          <ul class="list-reset nav__list">
-            <li class="nav__item"><a class="nav__link" href="#abaut-us">О нас</a></li>
-            <li class="nav__item"><a class="nav__link" href="#projects">Проэкты</a></li>
-            <li class="nav__item"><a class="nav__link" href="#stages">Этапы</a></li>
-            <li class="nav__item"><a class="nav__link" href="#reviews">Отзывы</a></li>
-            <li class="nav__item"><a class="nav__link" href="#contacts">Контакты</a></li>
+        <a class="header__logo"><img class="logo" src="img/logo.svg" alt="Логотип" width="225px" height="72px">
+          <li class="nav__item"><a class="nav__link" href="#projects">Проэкты</a></li>
+          <li class="nav__item"><a class="nav__link" href="#stages">Этапы</a></li>
+          <li class="nav__item"><a class="nav__link" href="#reviews">Отзывы</a></li>
+          <li class="nav__item"><a class="nav__link" href="#contacts">Контакты</a></li>
           </ul>
-        </nav>
-        <button class="burger" aria-label="Бургер меню">
-          <span class="burger__line"></span>
-          <span class="burger__line"></span>
-          <span class="burger__line"></span>
-        </button>
-        <div class="header__search search">
-          <form class="search__form" action="https://jsonplaceholder.typicode.com/posts">
-            <input class="search__input" type="search" id="search" aria-label="поисковая строка сайта"
-              placeholder="Что будем искать?">
-            <button class="search__button" aria-label="Найти">
+          </nav>
+          <button class="burger" aria-label="Бургер меню">
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+          </button>
+          <div class="header__search search">
+            <form class="search__form" action="https://jsonplaceholder.typicode.com/posts">
+              <input class="search__input" type="search" id="search" aria-label="поисковая строка сайта"
+                placeholder="Что будем искать?">
+              <button class="search__button" aria-label="Найти">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="7.56126" height="1.89031"
+                    transform="matrix(0.713342 0.700816 -0.713342 0.700816 18.6064 17.3762)" fill="none" />
+                  <path
+                    d="M20.9303 10.7726C20.9303 16.1533 16.4855 20.5452 10.9652 20.5452C5.44478 20.5452 1 16.1533 1 10.7726C1 5.39198 5.44478 1 10.9652 1C16.4855 1 20.9303 5.39198 20.9303 10.7726Z"
+                    stroke="none" stroke-width="2" />
+                </svg>
+              </button>
+            </form>
+            <button class="search__close" aria-label="Скрыть поисковую строку сайта">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="7.56126" height="1.89031"
-                  transform="matrix(0.713342 0.700816 -0.713342 0.700816 18.6064 17.3762)" fill="none" />
-                <path
-                  d="M20.9303 10.7726C20.9303 16.1533 16.4855 20.5452 10.9652 20.5452C5.44478 20.5452 1 16.1533 1 10.7726C1 5.39198 5.44478 1 10.9652 1C16.4855 1 20.9303 5.39198 20.9303 10.7726Z"
-                  stroke="none" stroke-width="2" />
+                <rect x="8.95386" y="7.30444" width="11.6645" height="2.33291" transform="rotate(45 8.95386 7.30444)"
+                  fill="#CACACA" />
+                <rect x="7.3042" y="15.5525" width="11.6645" height="2.33291" transform="rotate(-45 7.3042 15.5525)"
+                  fill="#CACACA" />
+                <circle cx="12" cy="12" r="11" stroke="none" stroke-width="2" />
               </svg>
             </button>
-          </form>
-          <button class="search__close" aria-label="Скрыть поисковую строку сайта">
+          </div>
+          <button class="header__button" aria-label="показать поисковую строку сайта">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="8.95386" y="7.30444" width="11.6645" height="2.33291" transform="rotate(45 8.95386 7.30444)"
-                fill="#CACACA" />
-              <rect x="7.3042" y="15.5525" width="11.6645" height="2.33291" transform="rotate(-45 7.3042 15.5525)"
-                fill="#CACACA" />
-              <circle cx="12" cy="12" r="11" stroke="none" stroke-width="2" />
+              <rect width="7.56126" height="1.89031"
+                transform="matrix(0.713342 0.700816 -0.713342 0.700816 18.6064 17.3762)" fill="none" />
+              <path
+                d="M20.9303 10.7726C20.9303 16.1533 16.4855 20.5452 10.9652 20.5452C5.44478 20.5452 1 16.1533 1 10.7726C1 5.39198 5.44478 1 10.9652 1C16.4855 1 20.9303 5.39198 20.9303 10.7726Z"
+                stroke="none" stroke-width="2" />
             </svg>
           </button>
-        </div>
-        <button class="header__button" aria-label="показать поисковую строку сайта">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="7.56126" height="1.89031"
-              transform="matrix(0.713342 0.700816 -0.713342 0.700816 18.6064 17.3762)" fill="none" />
-            <path
-              d="M20.9303 10.7726C20.9303 16.1533 16.4855 20.5452 10.9652 20.5452C5.44478 20.5452 1 16.1533 1 10.7726C1 5.39198 5.44478 1 10.9652 1C16.4855 1 20.9303 5.39198 20.9303 10.7726Z"
-              stroke="none" stroke-width="2" />
-          </svg>
-        </button>
       </div>
     </header>
     <main>
@@ -90,7 +87,7 @@
                     <source srcset="img/hero-1_1024.jpg" media="(max-width:1100px)" type="image/webp">
                     <source srcset="img/hero-1_1024.webp" media="(max-width:1100px)" type="image/jpg">
                     <source srcset="img/hero-1.webp" type="image/webp">
-                    <img class="hero__img" src="img/hero-1.jpg" alt="слайд 1">
+                    <img class="hero__img" height="620px" width="100%" src="img/hero-1.jpg" alt="слайд 1">
                   </picture>
                 </li>
                 <li class="hero__image swiper-slide">
@@ -494,7 +491,7 @@
     <footer class="footer">
       <div class="container footer__container">
         <div class="footer__left">
-          <a class="footer__logo"><img src="img/logo-footer.svg" alt="Логотип" loading="lazy"></a>
+          <a class="footer__logo"><img src="img/logo-footer.svg" alt="Логотип" loading="lazy" width="225px" height="72px"></a>
           <ul class="list-reset footer__navigation">
             <li class="footer__item"><a href="" class="footer__link">О нас</a></li>
             <li class="footer__item"><a href="" class="footer__link">Проекты</a></li>
