@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="
+    Construction company, design systems">
     <!-- font -->
     <link rel="preload" href="/fonts/Montserrat-Bold.woff2" as="font" type="font/woff2">
     <link rel="preload" href="/fonts/Montserrat-ExtraBold.woff2" as="font" type="font/woff2">
@@ -24,12 +26,15 @@
   <body>
     <header class="header">
       <div class="container header__container">
-        <a class="header__logo"><img class="logo" src="img/logo.svg" alt="Логотип" width="225px" height="72px">
-          <li class="nav__item"><a class="nav__link" href="#projects">Проэкты</a></li>
-          <li class="nav__item"><a class="nav__link" href="#stages">Этапы</a></li>
-          <li class="nav__item"><a class="nav__link" href="#reviews">Отзывы</a></li>
-          <li class="nav__item"><a class="nav__link" href="#contacts">Контакты</a></li>
-          </ul>
+        <a href="#" class="header__logo"><img class="logo" src="img/logo.svg" alt="Логотип" width="225px" height="72px">
+          <nav class="header__nav nav">
+            <ul class="list-reset nav__list">
+              <li class="nav__item"><a class="nav__link" href="#abaut-us">О нас</a></li>
+              <li class="nav__item"><a class="nav__link" href="#projects">Проэкты</a></li>
+              <li class="nav__item"><a class="nav__link" href="#stages">Этапы</a></li>
+              <li class="nav__item"><a class="nav__link" href="#reviews">Отзывы</a></li>
+              <li class="nav__item"><a class="nav__link" href="#contacts">Контакты</a></li>
+            </ul>
           </nav>
           <button class="burger" aria-label="Бургер меню">
             <span class="burger__line"></span>
@@ -491,7 +496,8 @@
     <footer class="footer">
       <div class="container footer__container">
         <div class="footer__left">
-          <a class="footer__logo"><img src="img/logo-footer.svg" alt="Логотип" loading="lazy" width="225px" height="72px"></a>
+          <a href="#" class="footer__logo"><img src="img/logo-footer.svg" alt="Логотип" loading="lazy" width="225px"
+              height="72px"></a>
           <ul class="list-reset footer__navigation">
             <li class="footer__item"><a href="" class="footer__link">О нас</a></li>
             <li class="footer__item"><a href="" class="footer__link">Проекты</a></li>
